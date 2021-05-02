@@ -6,9 +6,9 @@ class Box{
     Box(): l(0), b(0), h(0){};
     Box(int l,int b,int h): l(l), b(b), h(h){};
     Box(Box &x): l(x.l), b(x.b), h(x.h){};
-    int getLength() { return l; }
-    int getBreadth(){ return b; }
-    int getHeight() { return h; }
+    int GetLength() { return l; }
+    int GetBreadth(){ return b; }
+    int GetHeight() { return h; }
     long long CalculateVolume(){ return (long long)l*b*h; }
     bool operator<(const Box& x) {
         if (l < x.l) return true;
@@ -21,3 +21,7 @@ class Box{
         return o;
     }
 };
+// test commit
+// test commit
+// test commit
+// test commit
